@@ -11,23 +11,22 @@ function Navigation() {
             </div>
             <ul className='nav-items'>
                 <li className='nav-items'>
-                    <NavLink activeclassname="active-class" to="/home" >Home</NavLink>
-                </li>
-
-                <li className='nav-items'>
-                    <NavLink activeclassname="active-class" to="/about" >About</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/" >Home</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink activeclassname="active-class" to="/resume">Resume</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/about" >About</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink activeclassname="active-class" to="/portfolio">Portfolios</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/resume">Resume</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink activeclassname="active-class" to="/certifications">Certifications</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/portfolio">Portfolios</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink activeclassname="active-class" to="/contact">Contact</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/certifications">Certifications</NavLink>
+                </li>
+                <li className='nav-items'>
+                    <NavLink exact activeClassName="active-class" to="/contact">Contact</NavLink>
                 </li>
             </ul>
             <footer className='footer'>
@@ -52,8 +51,8 @@ const NavigationStyles = styled.nav`
         align-items: center;
         border-bottom: 1px solid var(--border-color);
         img{
-            width: 85%;
-            height: 85%;
+            width: 70%;
+            height: 70%;
             border-radius: 50%;
             border: 8px solid var(--border-color);
         }
@@ -62,12 +61,49 @@ const NavigationStyles = styled.nav`
     .nav-items{
         width: 100%;
         text-align: center;
-
+        text-transform: uppercase;
+        .active-class{
+            background-color: var(--primary-color);
+        }
         li{
             display: block;
             a{
                 display: block;
+                padding: 0.4rem 0;
+                position: relative;
+                font-size: 1rem;
+                font-weight: 600;
+                &:hover{
+                    &::before{
+                        width: 100%;
+                        height: 100%;
+                        color: white;
+                    }
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    color: white;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 50%;
+                    background-color: var(--primary-color);
+                    transition: all 0.4s cubic-bezier(1,-0.04,.56,1.01);
+                    opacity: 0.2;
+
+                }
             }
+        }
+    }
+
+    footer{
+        border-top: 1px solid var(--border-color);
+        width: 100%;
+        p{
+            padding: 1rem 0;
+            font-size: 1rem;
+            text-align: center;
         }
     }
 `;
