@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/main.67d5a32e.js",
-    "static/media/certification-3.png": "/static/media/certification-3.71873eea175d254de1f7.png",
-    "static/media/certification-4.png": "/static/media/certification-4.856fbbf9264f9088de48.png",
-    "static/media/certification-1.jpg": "/static/media/certification-1.1dc5afd131013edb0791.jpg",
-    "static/media/certification-2.jpg": "/static/media/certification-2.2d65b76789ef534067ec.jpg",
-    "static/media/react-1.png": "/static/media/react-1.1d80cee95632b081c6d8.png",
-    "static/media/cv.pdf": "/static/media/cv.7087ae1af6a9d019da98.pdf",
-    "static/media/react-2.png": "/static/media/react-2.ecec8495dd200cf871ee.png",
-    "static/media/rohithmenon.jpg": "/static/media/rohithmenon.1d6f9cbd1141b4ad926b.jpg",
-    "static/media/profile.jpg": "/static/media/profile.40d7d7d5cce33030aa47.jpg",
-    "static/media/angular-1.png": "/static/media/angular-1.e9eb701e503040a55efa.png",
-    "static/media/intelligence.svg": "/static/media/intelligence.11bd2ab25b415eeb093876127c8d6654.svg",
-    "static/media/game-dev.svg": "/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
-    "static/media/design.svg": "/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
-    "index.html": "/index.html",
-    "main.67d5a32e.js.map": "/static/js/main.67d5a32e.js.map"
+    "main.js": "/portfolio-react/static/js/main.3fcbb8b5.js",
+    "static/media/certification-3.png": "/portfolio-react/static/media/certification-3.71873eea175d254de1f7.png",
+    "static/media/certification-4.png": "/portfolio-react/static/media/certification-4.856fbbf9264f9088de48.png",
+    "static/media/certification-1.jpg": "/portfolio-react/static/media/certification-1.1dc5afd131013edb0791.jpg",
+    "static/media/certification-2.jpg": "/portfolio-react/static/media/certification-2.2d65b76789ef534067ec.jpg",
+    "static/media/react-1.png": "/portfolio-react/static/media/react-1.1d80cee95632b081c6d8.png",
+    "static/media/cv.pdf": "/portfolio-react/static/media/cv.7087ae1af6a9d019da98.pdf",
+    "static/media/react-2.png": "/portfolio-react/static/media/react-2.ecec8495dd200cf871ee.png",
+    "static/media/rohithmenon.jpg": "/portfolio-react/static/media/rohithmenon.1d6f9cbd1141b4ad926b.jpg",
+    "static/media/profile.jpg": "/portfolio-react/static/media/profile.40d7d7d5cce33030aa47.jpg",
+    "static/media/angular-1.png": "/portfolio-react/static/media/angular-1.e9eb701e503040a55efa.png",
+    "static/media/intelligence.svg": "/portfolio-react/static/media/intelligence.11bd2ab25b415eeb093876127c8d6654.svg",
+    "static/media/game-dev.svg": "/portfolio-react/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
+    "static/media/design.svg": "/portfolio-react/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
+    "index.html": "/portfolio-react/index.html",
+    "main.3fcbb8b5.js.map": "/portfolio-react/static/js/main.3fcbb8b5.js.map"
   },
   "entrypoints": [
-    "static/js/main.67d5a32e.js"
+    "static/js/main.3fcbb8b5.js"
   ]
 }
