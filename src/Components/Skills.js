@@ -53,6 +53,7 @@ function Skills() {
 }
 
 const SkillsStyled = styled.section`
+    padding-top: 1.5rem;
     .skills{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

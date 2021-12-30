@@ -12,23 +12,19 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Rohith Menon</span></h4>
                 <p className="paragraph">
-                    A self-motivated and hardworking individual, currently pursuing MSc. in Computing (Data Analytics),with 4 years of experience in web development. Interested to learn new technologies and implementcreative techniques to make the issues that businesses face more manageable. Currently seekinga position to utilize my analytical and customer relation skills.</p>
+                A self-motivated and hardworking individual, currently pursuing MSc. in Computing (Data Analytics),with 4 years of experience in web development. Interested to learn new technologies and implement creative techniques to make the issues that businesses face more manageable. Currently seeking a role to utilize analytical and customer relation skills while keeping the team on board in a productive and goal-oriented atmosphere.</p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
-                        <p>Age</p>
                         <p>Nationality </p>
                         <p>Languages </p>
                         <p>Location</p>
-                        <p>Service</p>
                     </div>
                     <div className="info">
                         <p>: Rohith Raghuprakash Menon</p>
-                        <p>: 27</p>
                         <p>: Indian </p>
                         <p>: English, Hindi, Malayalam</p>
                         <p>: Dublin, Ireland</p>
-                        <p>: Data Analyst, Web development</p>
                     </div>
                 </div>
                 <PrimaryButton title={'Download Cv'} />

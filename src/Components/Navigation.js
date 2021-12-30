@@ -14,13 +14,13 @@ function Navigation() {
                     <NavLink exact activeClassName="active-class" to="/portfolio-react" >Home</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/about" >About</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/about" >Resume</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/resume">Resume</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/resume">Experience and Education</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/portfolio">Portfolios</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/portfolio">Projects</NavLink>
                 </li>
                 <li className='nav-items'>
                     <NavLink exact activeClassName="active-class" to="/certifications">Certifications</NavLink>
