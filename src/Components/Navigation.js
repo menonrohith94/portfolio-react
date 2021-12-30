@@ -11,7 +11,7 @@ function Navigation() {
             </div>
             <ul className='nav-items'>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/" >Home</NavLink>
+                    <NavLink exact activeClassName="active-class" to="/portfolio-react" >Home</NavLink>
                 </li>
                 <li className='nav-items'>
                     <NavLink exact activeClassName="active-class" to="/about" >About</NavLink>

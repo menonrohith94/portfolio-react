@@ -72,7 +72,7 @@ function App() {
           </div>
 
           <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/portfolio-react" element={<HomePage />} />
           <Route exact path="/about" element={<AboutPage />} />
           <Route exact path="/resume" element={<ResumePage />} />
           <Route exact path="/portfolio" element={<PortfolioPage />} />
