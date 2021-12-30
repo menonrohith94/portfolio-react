@@ -14,12 +14,12 @@ function Menu({menuItem}) {
                                 <img src={item.image} alt=""/>
                                 <ul>
                                     <li>
-                                        <a href={item.link1}>
+                                        <a href={item.link1} target="_blank">
                                             <GitHub />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href={item.link2}>
+                                        <a href={item.link2} target="_blank">
                                             <Pinterest />
                                         </a>
                                     </li>
@@ -93,7 +93,7 @@ const MenuItemStyled = styled.div`
                     content: "";
                     position: absolute;
                     left: 2%;
-                    top: 4%;
+                    top: 0;
                     height: 0;
                     width: 0;
                     transition: all .4s ease-in-out;
