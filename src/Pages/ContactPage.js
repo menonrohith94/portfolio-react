@@ -17,7 +17,7 @@ function ContactPage() {
             <Title title={'Contact'} span={'Contact'} />
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
-                <div className="left-content">
+                {/* <div className="left-content">
                     <div className="contact-title">
                         <h4>Get In Touch</h4>
                     </div>
@@ -42,7 +42,7 @@ function ContactPage() {
                             <PrimaryButton title={'Send Email'} />
                         </div>
                     </form>
-                </div>
+                </div> */}
                 <div className="right-content">
                     <ContactItem title={'Phone'} icon={phone} cont1={'+353-899689481'} />
                     <ContactItem title={'Email'} icon={email} cont1={'menonrohith1294@gmail.com'}/>

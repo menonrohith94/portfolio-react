@@ -5,9 +5,9 @@ function ProgressBar({title, width, text}) {
     return (
         <ProgressBarStyled>
             <h6>{title}</h6>
-            <div className="progress-bar">
+            <div className="progress-bar-span">
                 <p>{text}</p>
-                <div className="progress">
+                <div className="progress-content">
                     <span style={{width: width}}></span>
                 </div>
             </div>
@@ -16,13 +16,13 @@ function ProgressBar({title, width, text}) {
 }
 
 const ProgressBarStyled = styled.div`
-    .progress-bar{
+    .progress-bar-span{
         display: flex;
         align-items: center;
         p{
             padding-right: 1.1rem;
         }
-        .progress{
+        .progress-content{
             position: relative;
             width: 100%;
             height: .4rem;
