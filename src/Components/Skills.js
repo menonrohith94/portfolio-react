@@ -46,6 +46,11 @@ function Skills() {
                             width={'75%'}
                             text={'75%'}
                         />
+                        <ProgressBar 
+                            title={'DATA ANALYSIS AND MACHINE LEARNING'}
+                            width={'60%'}
+                            text={'60%'}
+                        />
                     </div>
                 </InnerLayout>
         </SkillsStyled>
