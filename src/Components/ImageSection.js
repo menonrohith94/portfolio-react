@@ -12,7 +12,7 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Rohith Menon</span></h4>
                 <p className="paragraph">
-                A self-motivated and hardworking individual, currently pursuing MSc. in Computing (Data Analytics),with 4 years of experience in web development. Interested to learn new technologies and implement creative techniques to make the issues that businesses face more manageable. Currently seeking a role to utilize analytical and customer relation skills while keeping the team on board in a productive and goal-oriented atmosphere.</p>
+                A result-driven highly motivated web developer and DCU master’s candidate in data analytics with more than 4 years of professional experience in web development, UI development, and data analytical solutions. Experienced in developing end-to-end web and data solutions from data extraction, transformation, and visualisation to the development of front-end web displays with dashboards and information. Well-versed in web technologies such as HTML, CSS, JavaScript, Angular, React, SQL querying and optimisation of code scripts to clean, extract, analyse, interpret, and display information from various sources.</p>
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>

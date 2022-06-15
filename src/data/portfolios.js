@@ -8,7 +8,6 @@ const portfolios = [
         category: 'Angular',
         image: angular1,
         link1: 'https://github.com/menonrohith94/angular-highcharts',
-        link2: 'https://www.google.com',
         title: 'Data Visualization',
         text: 'Data Visualization using angular and highcharts as frontend and nodejs as backend server where mongodb is the database.'
     },
@@ -17,7 +16,6 @@ const portfolios = [
         category: 'React JS',
         image: react1,
         link1: 'https://github.com/menonrohith94/food-cart',
-        link2: 'https://www.google.com',
         title: 'Food Cart',
         text: 'Responsive food cart website created using different technologies such as react js, Material UI, Styled-Components and more...'
     },
@@ -26,7 +24,6 @@ const portfolios = [
         category: 'React JS',
         image: react2,
         link1: 'https://github.com/menonrohith94/react-covid-tracker',
-        link2: 'https://www.google.com',
         title: 'Covid Tracker',
         text: 'Covid tracker website is a website using reactjs, chartjs and leaflet where we are performing data visualization using covid dataset.'
     }

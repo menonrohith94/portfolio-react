@@ -25,7 +25,6 @@ function PortfolioPage() {
         <MainLayout>
             <Title title={'Projects'} span={'projects'} />
             <InnerLayout>
-
                 <Button filter={filter} button={button} />
                 <Menu menuItem={menuItem} />
             </InnerLayout>

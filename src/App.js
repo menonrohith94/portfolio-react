@@ -72,12 +72,12 @@ function App() {
           </div>
 
           <Routes>
-          <Route exact path="/portfolio-react" element={<HomePage />} />
-          <Route exact path="/about" element={<AboutPage />} />
-          <Route exact path="/resume" element={<ResumePage />} />
-          <Route exact path="/portfolio" element={<PortfolioPage />} />
-          <Route exact path="/certifications" element={<CertificationsPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
+          <Route path="/portfolio-react" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/certifications" element={<CertificationsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
 

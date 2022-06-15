@@ -23,9 +23,9 @@ function HomePage() {
                 </h1>
 
                 <div className="icons">
-                    <a href="https://twitter.com/RohithM1994" target="_blank" className="icon i-twitter"><Twitter /></a>
-                    <a href="https://github.com/menonrohith94" target="_blank" className="icon i-github"><GitHub /></a>
-                    <a href="https://www.linkedin.com/in/rohith-menon-637358102/" target="_blank" className="icon i-linkedin"><LinkedIn /></a>
+                    <a href="https://twitter.com/RohithM1994" target="_blank" rel="noreferrer" className="icon i-twitter"><Twitter /></a>
+                    <a href="https://github.com/menonrohith94" target="_blank" rel="noreferrer" className="icon i-github"><GitHub /></a>
+                    <a href="https://www.linkedin.com/in/rohith-menon-637358102/" target="_blank" rel="noreferrer" className="icon i-linkedin"><LinkedIn /></a>
                 </div>
             </div>
 

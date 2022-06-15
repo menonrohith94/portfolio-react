@@ -11,22 +11,22 @@ function Navigation() {
             </div>
             <ul className='nav-items'>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/portfolio-react" >Home</NavLink>
+                    <NavLink to="/portfolio-react" >Home</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/about" >Resume</NavLink>
+                    <NavLink to="/about" >CV</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/resume">Experience and Education</NavLink>
+                    <NavLink to="/resume">Experience and Education</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/portfolio">Projects</NavLink>
+                    <NavLink to="/portfolio">Projects</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/certifications">Certifications</NavLink>
+                    <NavLink to="/certifications">Certifications</NavLink>
                 </li>
                 <li className='nav-items'>
-                    <NavLink exact activeClassName="active-class" to="/contact">Contact</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
                 </li>
             </ul>
             <footer className='footer'>
@@ -62,7 +62,7 @@ const NavigationStyles = styled.nav`
         width: 100%;
         text-align: center;
         text-transform: uppercase;
-        .active-class{
+        .active{
             background-color: var(--primary-color);
         }
         li{

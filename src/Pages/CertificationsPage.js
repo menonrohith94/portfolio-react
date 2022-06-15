@@ -17,7 +17,7 @@ function CertificationsPage() {
                                     <img src={cert.image} alt=""/>
                                 </div>
                                 <div className="title">
-                                    <a href={cert.link} target="_blank">
+                                    <a href={cert.link} target="_blank" rel="noreferrer">
                                         {cert.title}
                                     </a>
                                 </div>

@@ -19,6 +19,12 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
+                        year={'2022 - 2022'} 
+                        title={'Data Science Intern'}
+                        subTitle={'Orcawise'}
+                        text={'Technologies: Django, Python, JavaScript, NLP, Machine Learning, BERT model'} 
+                    />
+                    <ResumeItem 
                         year={'2021 - 2021'} 
                         title={'Consultant -  Product Engineer'}
                         subTitle={'Intellect Design Arena'}
@@ -28,12 +34,12 @@ function Resume() {
                         year={'2018 - 2020'} 
                         title={'Associate Developer'}
                         subTitle={'BTS GroupAB'}
-                        text={'Technologies: Angular 8, PowerBI, JavaScript, HTML5, CSS, jQuery, GIT, SVN, Bootstrap, Nodejs, Python, Typescript, AWS, Highcharts'} 
+                        text={'Technologies: Angular, PowerBI, JavaScript, HTML5, React, CSS, jQuery, GIT, SVN, Bootstrap, Nodejs, Python, Typescript, AWS, Highcharts'} 
                     />
                     <ResumeItem 
                         year={'2016 - 2017'} 
                         title={'Consultant'}
-                        subTitle={'Ericsson Global Services (ManpowerGroup)'}
+                        subTitle={'Manpower (Ericsson Global Services)'}
                         text={'Technologies: Linux, Telecommunication.'} 
                     />
                 </div>
